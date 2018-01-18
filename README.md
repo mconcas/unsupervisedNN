@@ -9,4 +9,5 @@ Material for the UNN exam:
 
 Or edit the `runclusterer.py` script as you wish.
 
-Authors: Luca Barioglio, Antonio Bianchi, Matteo Concas, Fabrizio Grosa
+Authors:
+  Luca Barioglio, Antonio Bianchi, Matteo Concas, Fabrizio Grosa
