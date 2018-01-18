@@ -1,7 +1,7 @@
-### UNN
+## UNN
 Material for the UNN exam:
 
-## Usage
+### Usage
 
 ```
 ./runclusterer.py [inputfile] [epsilon] [min-samples] [outputfile]
