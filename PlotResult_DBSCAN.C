@@ -108,9 +108,13 @@ void PlotResult_DBSCAN(TString filenametxt) {
     }
     else {
       gEffTot->SetPoint(iEntry,nPtsMin[iEntry],efftot);
+      gEffTot->SetPointError(iEntry,0.,efftoterr);
       gEffTotGood->SetPoint(iEntry,nPtsMin[iEntry],effgoodtot);
+      gEffTotGood->SetPointError(iEntry,0.,effgoodtoterr);
       gEffPionGood->SetPoint(iEntry,nPtsMin[iEntry],effpion);
+      gEffPionGood->SetPointError(iEntry,0.,effpionerr);
       gEffHeliumGood->SetPoint(iEntry,nPtsMin[iEntry],effhelium);
+      gEffHeliumGood->SetPointError(iEntry,0.,effheliumerr);
     }
   }
   
